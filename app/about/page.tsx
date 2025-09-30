@@ -5,8 +5,16 @@ import { Target, Users, Lightbulb, Award, Zap, Leaf, ShieldCheck, TrendingUp } f
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Nosotros | LAU-CAM',
-  description: 'Conoce más sobre LAU-CAM, líderes en tecnología de iluminación LED en Córdoba, Argentina. Más de 15 años transformando espacios con soluciones innovadoras.',
+  title: 'Sobre Nosotros | LAU-CAM - Expertos en Iluminación LED',
+  description: 'Conoce más sobre LAU-CAM, líderes en tecnología de iluminación LED en Córdoba, Argentina. Más de 15 años transformando espacios con soluciones innovadoras y sostenibles.',
+  alternates: {
+    canonical: '/about',
+  },
+  openGraph: {
+    title: 'Sobre Nosotros | LAU-CAM - Expertos en Iluminación LED',
+    description: 'Conoce más sobre LAU-CAM, líderes en tecnología de iluminación LED en Córdoba, Argentina. Más de 15 años transformando espacios con soluciones innovadoras y sostenibles.',
+    url: 'https://www.lau-cam.com/about',
+  },
 }
 
 export default function AboutPage() {
